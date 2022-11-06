@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         val builder = NotificationCompat.Builder(this, CHANNEL_ID_1)
             .setSmallIcon(R.drawable.ic_baseline_drafts)
             .setContentText("Selamat anda sudah berhasil Modul 8 dan 9")
-            .setContentTitle("Modul89_B_10688_PROJECT2 ")
+            .setContentTitle("Modul89_B_10709_PROJECT2 ")
             .setPriority(NotificationCompat.PRIORITY_LOW)
         with(NotificationManagerCompat.from(this)){
             notify(notificationid1, builder.build())
